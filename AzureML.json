@@ -127,7 +127,7 @@
           "applicationInsights": "[resourceId('Microsoft.Insights/components',variables('applicationInsightsName'))]",
           "storageAccount": "[resourceId('Microsoft.Storage/storageAccounts/',variables('storageAccountName'))]"
         }
-      }
+      },
       {
             "apiVersion": "2018-02-01",
             "name": "pid-9408f13f-5d8c-5318-a26c-0d76854a4a23",
