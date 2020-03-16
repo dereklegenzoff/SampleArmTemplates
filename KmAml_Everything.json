@@ -94,7 +94,6 @@
         "amlWorkspaceName": "[concat(parameters('resourcePrefix'), '-ml')]",
         "hostingPlanName": "[concat(parameters('resourcePrefix'), '-plan')]",
         "websiteName": "[concat(parameters('resourcePrefix'), '-site')]",
-        "appInsightsName": "[concat(parameters('resourcePrefix'), '-app-insights')]",
         "searchServiceName": "[concat(parameters('resourcePrefix'), '-search-service')]",
         "cognitiveServicesAccountName": "[concat(parameters('resourcePrefix'), '-cognitive-services')]",
         "acrName":"[concat(parameters('resourcePrefix'), 'containerregistry')]",
@@ -123,20 +122,6 @@
             ],
             "properties": {
                 "serverFarmId": "[variables('hostingPlanName')]"
-            }
-        },
-        {
-            "type": "microsoft.insights/components",
-            "apiVersion": "2015-05-01",
-            "name": "[variables('appInsightsName')]",
-            "location": "[parameters('location')]",
-            "tags": {
-                "applicationType": "web",
-                "applicationName": "[variables('websiteName')]"
-            },
-            "kind": "web",
-            "properties": {
-                "Application_Type": "web"
             }
         },
         {
