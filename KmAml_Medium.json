@@ -182,7 +182,7 @@
               "name": "[parameters('amlSku')]"
             },
             "properties": {
-              "friendlyName": "[parameters('workspaceName')]",
+              "friendlyName": "[variables('amlWorkspaceName')]",
               "keyVault": "[resourceId('Microsoft.KeyVault/vaults',variables('keyVaultName'))]",
               "applicationInsights": "[resourceId('Microsoft.Insights/components',variables('applicationInsightsName'))]",
               "storageAccount": "[resourceId('Microsoft.Storage/storageAccounts/',variables('storageAccountName'))]"
