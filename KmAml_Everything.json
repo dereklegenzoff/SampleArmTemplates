@@ -97,7 +97,7 @@
         "appInsightsName": "[concat(parameters('resourcePrefix'), '-app-insights')]",
         "searchServiceName": "[concat(parameters('resourcePrefix'), '-search-service')]",
         "cognitiveServicesAccountName": "[concat(parameters('resourcePrefix'), '-cognitive-services')]",
-        "acrName":"[concat(parameters('resourcePrefix'), '-container-registry')]",
+        "acrName":"[concat(parameters('resourcePrefix'), 'containerregistry')]",
         "storageAccountId":"[concat(parameters('resourcePrefix'))]"
     },
     "resources": [
