@@ -71,8 +71,8 @@
         "tenantId": "[subscription().tenantId]",
         "applicationInsightsName": "[concat(parameters('resourcePrefix'), '-ai')]",
         "amlWorkspaceName": "[concat(parameters('resourcePrefix'), '-ml')]",
-        "searchServiceName": "[concat(parameters('resourcePrefix'), '-search-service')]",
-        "cognitiveServicesAccountName": "[concat(parameters('resourcePrefix'), '-cognitive-services')]",
+        "searchServiceName": "[concat(parameters('resourcePrefix'), '-search')]",
+        "cognitiveServicesAccountName": "[concat(parameters('resourcePrefix'), '-cog-services')]",
         "acrName":"[concat(parameters('resourcePrefix'), 'containerregistry')]",
         "storageAccountId":"[concat(parameters('resourcePrefix'))]"
     },

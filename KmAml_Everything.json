@@ -94,8 +94,8 @@
         "amlWorkspaceName": "[concat(parameters('resourcePrefix'), '-ml')]",
         "hostingPlanName": "[concat(parameters('resourcePrefix'), '-plan')]",
         "websiteName": "[concat(parameters('resourcePrefix'), '-site')]",
-        "searchServiceName": "[concat(parameters('resourcePrefix'), '-search-service')]",
-        "cognitiveServicesAccountName": "[concat(parameters('resourcePrefix'), '-cognitive-services')]",
+        "searchServiceName": "[concat(parameters('resourcePrefix'), '-search')]",
+        "cognitiveServicesAccountName": "[concat(parameters('resourcePrefix'), '-cog-services')]",
         "acrName":"[concat(parameters('resourcePrefix'), 'containerregistry')]",
         "storageAccountId":"[concat(parameters('resourcePrefix'))]"
     },
