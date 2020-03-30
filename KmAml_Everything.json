@@ -175,7 +175,7 @@
             "type": "Microsoft.Insights/components",
             "apiVersion": "2018-05-01-preview",
             "name": "[variables('applicationInsightsName')]",
-            "location": "[if(or(equals(resourceGroup().location,'eastus2'),equals(resourceGroup().location),'westcentralus')),'southcentralus',resourceGroup().location)]",
+            "location": "[if(or(equals(resourceGroup().location,'eastus2'),equals(resourceGroup().location,'westcentralus')),'southcentralus',resourceGroup().location)]",
             "kind": "web",
             "properties": {
               "Application_Type": "web"
