@@ -47,8 +47,7 @@
                 "free",
                 "basic",
                 "standard",
-                "standard2",
-                "standard3"
+                "standard2"
             ],
             "metadata": {
                 "description": "The SKU of the search service you want to create. E.g. free or standard"
